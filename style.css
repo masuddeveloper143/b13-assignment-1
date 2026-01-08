@@ -13,19 +13,34 @@
 
 }
 
-.nav-containe:hover {
-    border: 2px solid black;
+.nav-container:hover {
+    border: 1px solid black;
 }
 
+.nav-logo:hover {
+    border: 1px solid black;
+}
 
 .nav-features ul {
     display: flex;
     gap: 3rem;
     list-style: none;
+    font-weight: bold;
+}
 
+.nav-features ul li:hover {
+    color: orange;
+    border: 1px solid black;
 }
 
 .nav-btn button {
     width: 164px;
     padding: 20px;
+    color: green;
+    border-radius: 10px;
+}
+
+.nav-btn button:hover {
+    background-color: blue;
+    color: white;
 }

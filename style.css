@@ -14,7 +14,7 @@
 }
 
 .nav-container:hover {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .nav-logo:hover {
@@ -26,11 +26,18 @@
     gap: 3rem;
     list-style: none;
     font-weight: bold;
+    font-size: medium;
+}
+
+.nav-features ul:hover {
+
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .nav-features ul li:hover {
     color: orange;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .nav-btn button {

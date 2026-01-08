@@ -13,9 +13,19 @@
 
 }
 
+.nav-containe:hover {
+    border: 2px solid black;
+}
+
+
 .nav-features ul {
     display: flex;
     gap: 3rem;
     list-style: none;
 
+}
+
+.nav-btn button {
+    width: 164px;
+    padding: 20px;
 }

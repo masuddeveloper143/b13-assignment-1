@@ -286,3 +286,13 @@ body {
     margin-bottom: 10px;
 
 }
+
+
+/* brain-container end  */
+
+.teady-container {
+    width: 100%;
+    max-width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+}

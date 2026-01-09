@@ -332,12 +332,16 @@ body {
 
 /* ready prat end */
 
-/* strat footer  */
 /* footer {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } */
 
 .ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center padding: 0 20px;
     height: 348px;
     width: 100%;
     background-color: rgba(0, 25, 49, 1);
@@ -346,6 +350,17 @@ body {
 }
 
 .ftr-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     max-width: 1360px;
-    margin: 0 auto;
+    height: 60px;
+    margin: auto auto;
+    border: 1px solid #30B868;
+
+}
+
+.ftr-container-3img img {
+    width: 20px;
+    height: 20px;
 }

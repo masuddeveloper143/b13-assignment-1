@@ -238,3 +238,10 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+.brain-container-h1-4box {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+
+}

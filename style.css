@@ -291,6 +291,10 @@ body {
 /* brain-container end  */
 
 .ready-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 1360px;
     height: 384px;
@@ -298,6 +302,8 @@ body {
     background-color: rgba(247, 246, 242, 1);
     border-radius: 10px;
     border: 1px solid #e5e5e5;
+    text-align: center;
+    gap: 2rem;
 }
 
 .ready-container-btn {
@@ -308,4 +314,12 @@ body {
     background-color: #30B868;
     border: none;
     color: white;
+}
+
+.ready-container-hp p {
+    margin-top: 1.5rem;
+}
+
+.ready-container-btn {
+    margin-bottom: 10px;
 }

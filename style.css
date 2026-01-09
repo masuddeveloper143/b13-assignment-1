@@ -58,29 +58,21 @@
 .hero-section {}
 
 .hero-section-container {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 674px;
     width: 100%;
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    ba
-}
-
-
-.hero-section-images {
-
-    border: 1px solid red;
-
 
 }
-
-
-
 
 
 .hero-section-item {
-
+    gap: 10px;
     color: white;
 }
 

@@ -55,11 +55,17 @@
 /* navbr end  */
 
 /* strat hero section  */
-.hero-section-images {
+.hero-section {}
 
-    max-height: 674px;
+.hero-section-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 674px;
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid red;
+
 
 }
 
@@ -70,6 +76,10 @@
 }
 
 .hero-section-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 

@@ -318,6 +318,7 @@ body {
 
 .ready-container-hp p {
     margin-top: 1.5rem;
+    width: 500px;
 }
 
 .ready-container-btn {

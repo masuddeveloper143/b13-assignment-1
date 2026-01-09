@@ -168,6 +168,10 @@ body {
     font-weight: bold;
 }
 
+.notes-container p {
+    opacity: 0.7;
+}
+
 /* crad prat strat  */
 
 .crad-container {
@@ -189,6 +193,8 @@ body {
     background-color: white;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .crad-container .box img {
@@ -200,4 +206,8 @@ body {
     background-position: center;
     box-sizing: border-box;
     object-fit: cover;
+}
+
+.crad-container .box p {
+    opacity: 0.7;
 }

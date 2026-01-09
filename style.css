@@ -62,7 +62,6 @@ body {
 /* navbr end  */
 
 /* strat hero section  */
-.hero-section {}
 
 .hero-section-container {
     display: flex;
@@ -99,7 +98,10 @@ body {
 
 .hero-section-item-Early {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 
 
 }
@@ -196,7 +198,7 @@ body {
     font-weight: bold;
 }
 
-.notes-container h1:hover {
+.notes-container:hover {
     border: 1px solid black;
     border-radius: 8px;
 }
@@ -506,11 +508,110 @@ body {
 
     .nav-container {
         flex-direction: row;
-        width: 600px;
+        width: auto;
+        height: auto;
+        align-items: center;
 
     }
 
     ul li {
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .hero-section {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .hero-section-container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .ro-sechetion-item {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+
+    .hero-section-item-Early {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .hero-section-item-Early-p {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+
+    }
+
+    .hero-section-btn {
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .notes {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .notes-container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .crad {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .crad-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        height: 100%;
+        width: auto;
+    }
+
+    .nav-logo img {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+    .crad-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brain-container {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        height: auto;
+        width: 100%;
+    }
+
+    .hero-section-item-Early {
+        width: 100%;
+        height: auto;
     }
 }

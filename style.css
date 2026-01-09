@@ -319,8 +319,17 @@ body {
 .ready-container-hp p {
     margin-top: 1.5rem;
     width: 500px;
+    text-align: center;
+}
+
+.ready-container-hp h1 {
+    font-size: 2.5em;
 }
 
 .ready-container-btn {
     margin-bottom: 10px;
 }
+
+/* ready prat end */
+
+/* strat footer  */

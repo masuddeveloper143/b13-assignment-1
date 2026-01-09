@@ -76,6 +76,18 @@
     color: white;
 }
 
+.hero-section-item h1 {
+    font-size: 72px;
+    font-weight: 700;
+    style: bold;
+    line-height: 84px;
+}
+
+.hero-section-item-Early {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-section-item-Early-p {
     display: flex;
     justify-content: center;
@@ -83,7 +95,9 @@
     height: 35px;
     width: 229px;
     background-color: aliceblue;
-    color: black;
+    color: green;
+    border-radius: 1000px;
+    gap: 10px;
 }
 
 

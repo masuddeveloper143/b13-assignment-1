@@ -7,6 +7,7 @@
 body {
     box-sizing: border-box;
     overflow: hidden;
+    background-color: #f9f9f9;
 }
 
 .nav-container {
@@ -170,7 +171,33 @@ body {
 /* crad prat strat  */
 
 .crad-container {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 1360px;
     margin: 0 auto;
+}
+
+.crad-container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    gap: 5px;
+}
+
+.crad-container .box img {
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 100%;
+    background-position: center;
+    box-sizing: border-box;
+    object-fit: cover;
 }

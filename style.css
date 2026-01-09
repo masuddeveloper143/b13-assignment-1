@@ -333,3 +333,19 @@ body {
 /* ready prat end */
 
 /* strat footer  */
+/* footer {
+    width: 100%;
+} */
+
+.ftr {
+    height: 348px;
+    width: 100%;
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 6rem;
+
+}
+
+.ftr-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}

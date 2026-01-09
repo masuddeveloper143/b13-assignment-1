@@ -84,6 +84,10 @@
     line-height: 84px;
 }
 
+.hero-section-item h1 span {
+    color: green;
+}
+
 .hero-section-item-Early {
     display: flex;
     justify-content: center;
@@ -100,6 +104,7 @@
     border-radius: 1000px;
     gap: 10px;
 }
+
 
 
 /* end hero section  */

@@ -76,4 +76,15 @@
     color: white;
 }
 
+.hero-section-item-Early-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 229px;
+    background-color: aliceblue;
+    color: black;
+}
+
+
 /* end hero section  */

@@ -166,3 +166,11 @@ body {
     font-size: 48px;
     font-weight: bold;
 }
+
+/* crad prat strat  */
+
+.crad-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}

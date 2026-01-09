@@ -221,3 +221,13 @@ body {
 .crad-container .box h1 {
     font-weight: bold;
 }
+
+/* crad section end  */
+
+/* strat brain section  */
+
+.brain-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}

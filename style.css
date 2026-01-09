@@ -236,14 +236,16 @@ body {
 .brain-container {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
 
 }
 
 .brain-container-images {
     width: 600px;
     height: 600px;
+    border: 1px solid #f0f0f0;
     box-sizing: border-box;
     overflow: hidden;
 }

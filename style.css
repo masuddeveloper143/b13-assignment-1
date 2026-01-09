@@ -55,5 +55,9 @@
 /* navbr end  */
 
 /* strat hero section  */
+.hero-section-images {
+    max-height: 674px;
+    width: 100%;
+}
 
 /* end hero section  */

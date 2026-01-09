@@ -197,6 +197,11 @@ body {
     border-radius: 5px;
 }
 
+.crad-container .box:hover {
+    border: 1px solid #4a5568;
+    ;
+}
+
 .crad-container .box img {
     height: 60px;
     width: 60px;
@@ -210,4 +215,9 @@ body {
 
 .crad-container .box p {
     opacity: 0.7;
+    width: 274px;
+}
+
+.crad-container .box h1 {
+    font-weight: bold;
 }

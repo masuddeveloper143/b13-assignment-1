@@ -144,3 +144,8 @@ body {
 /* header prat end  */
 
 /* main section strat  */
+
+.notes-container {
+    width: 100%;
+    margin: 0 auto;
+}

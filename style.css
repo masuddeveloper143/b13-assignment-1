@@ -6,9 +6,8 @@
 
 html {
     font-size: 100%;
-    /* 1rem = 16px – সব ব্রাউজারে একই রাখে */
     scroll-behavior: smooth;
-    /* smooth scrolling */
+
 }
 
 body {

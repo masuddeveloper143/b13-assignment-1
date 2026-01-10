@@ -7,14 +7,24 @@
 html {
     font-size: 100%;
     scroll-behavior: smooth;
+}
 
+img,
+video,
+picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 body {
-    box-sizing: border-box;
-    /* overflow: hidden; */
+    min-height: 100vh;
     background-color: #f9f9f9;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
 }
+
+
 
 
 

@@ -25,6 +25,7 @@ body {
 
 .nav-logo:hover {
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .nav-features ul {
@@ -33,6 +34,7 @@ body {
     list-style: none;
     font-weight: bold;
     font-size: medium;
+    border-radius: 10px;
 }
 
 .nav-features ul:hover {

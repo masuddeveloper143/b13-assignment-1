@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+    /* 1rem = 16px – সব ব্রাউজারে একই রাখে */
+    scroll-behavior: smooth;
+    /* smooth scrolling */
+}
+
 body {
     box-sizing: border-box;
     /* overflow: hidden; */
     background-color: #f9f9f9;
 }
+
+
+
+
+/* STRAT CSS DESIGN  */
 
 .nav-container {
     width: 100%;

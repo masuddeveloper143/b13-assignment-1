@@ -326,7 +326,7 @@ nav {
 
 .brain-container-images {
     max-width: 600px;
-    min-height: 600px;
+    height: auto;
     border: 1px solid #f0f0f0;
     box-sizing: border-box;
     overflow: hidden;

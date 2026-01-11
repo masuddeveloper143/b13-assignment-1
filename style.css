@@ -111,6 +111,7 @@ body {
 }
 
 .hero-section-item h1 {
+    max-width: 100%;
     max-width: 730px;
     font-size: 72px;
     font-weight: 700;

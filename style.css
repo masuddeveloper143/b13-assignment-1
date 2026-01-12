@@ -52,9 +52,17 @@ nav {
     /* border: 1px solid black; */
 }
 
+.nav-logo {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 4px 8px;
+
+}
+
 .nav-logo:hover {
     border: 1px solid black;
-    border-radius: 10px;
+    cursor: pointer;
+
 }
 
 .nav-features ul {
@@ -64,17 +72,18 @@ nav {
     font-weight: bold;
     font-size: medium;
     border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
 }
 
 .nav-features ul:hover {
-
     border: 1px solid black;
-    padding: 10px;
 }
 
 .nav-features ul li:hover {
     color: orange;
-    /* border: 1px solid black; */
+    cursor: pointer;
+
 }
 
 .nav-btn button {
@@ -82,12 +91,14 @@ nav {
     padding: 20px;
     color: green;
     border-radius: 10px;
+    background-color: transparent;
 }
 
 .nav-btn button:hover {
     background-color: blue;
     color: white;
-    border: 1px solid white;
+    cursor: pointer;
+
 }
 
 /* navbr end  */
@@ -184,15 +195,22 @@ nav {
 }
 
 .btn-primary:hover {
-    background-color: #0a7a0a;
+    background-color: goldenrod;
+    cursor: pointer;
 }
 
 /* SECONDARY BUTTON */
 .btn-secondary {
-    background-color: #30B868;
+    background-color: transparent;
     color: white;
     border: 1px solid white;
 }
+
+.btn-secondary:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
 
 
 /* end hero section  */
@@ -211,6 +229,7 @@ nav {
     max-width: 1360px;
     margin: 0 auto;
     gap: 5px;
+
 }
 
 
@@ -220,25 +239,27 @@ nav {
     line-height: 1.2;
     font-weight: 700;
     margin-bottom: 1rem;
+    border: 1px solid transparent;
 
 
 }
 
-.notes-container:hover {
+.notes-container h1:hover {
     border: 1px solid black;
-    border-radius: 8px;
+    cursor: pointer;
 }
 
 .notes-container p {
     opacity: 0.7;
     font-size: clamp(0.95rem, 2vw, 1.1rem);
     line-height: 1.6;
+    border: 1px solid transparent;
 
 }
 
 .notes-container p:hover {
     border: 1px solid black;
-    border-radius: 8px;
+    cursor: pointer;
 }
 
 /* crad prat strat  */
@@ -254,7 +275,10 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+
 }
+
+
 
 .crad-container .box {
     padding: 32px;
@@ -267,11 +291,12 @@ nav {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     gap: 10px;
     border-radius: 12px;
+    border: 1px solid transparent;
 }
 
 .crad-container .box:hover {
     border: 1px solid #4a5568;
-    ;
+    cursor: pointer;
 }
 
 .crad-container .box img {
@@ -322,11 +347,13 @@ nav {
     border: 1px solid #f0f0f0;
     box-sizing: border-box;
     overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 
 .brain-container-images:hover {
     border: 1px solid navy;
-    border-radius: 20px;
+
 }
 
 .brain-container-images img {
@@ -338,30 +365,34 @@ nav {
 
 }
 
-.brain-container-p {}
 
 .brain-container-p p {
     margin: 2rem 0;
     font-size: 16px;
     width: 400px;
     opacity: 0.7;
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 .brain-container-p p:hover {
     border: 1px solid black;
-    border-radius: 6px;
+    cursor: pointer;
 }
 
-.brain-container-p h1:hover {
-    border: 1px solid black;
-    border-radius: 6px;
-}
+
 
 .brain-container-p h1 {
     margin: 2rem 0;
     font-size: 2.5rem;
     width: 400px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
 
+.brain-container-p h1:hover {
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .brain-container-h1 {
@@ -373,13 +404,14 @@ nav {
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
-
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 .brain-container-h1-4box:hover {
-
     border: 1px solid black;
-    border-radius: 6px;
+    cursor: pointer;
+
 }
 
 
@@ -390,6 +422,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     max-width: 1360px;
     height: 384px;
@@ -397,9 +430,15 @@ nav {
     background-color: rgba(247, 246, 242, 1);
     border-radius: 10px;
     border: 1px solid #e5e5e5;
-    text-align: center;
     gap: 2rem;
     margin-bottom: 5rem;
+}
+
+.ready-container:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+
 }
 
 .ready-container-btn {
@@ -414,12 +453,15 @@ nav {
     border: none;
     color: white;
     margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
 }
 
 .ready-container-btn:hover {
     border: 1px solid black;
-    border-radius: 6px;
     background-color: blue;
+    cursor: pointer;
 }
 
 .ready-container-btn img {
@@ -429,29 +471,43 @@ nav {
 }
 
 .ready-container-hp p {
+    margin: 0 auto;
+    width: 100%;
     margin-top: 1.5rem;
     width: 500px;
     text-align: center;
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
+
+
 
 .ready-container-hp h1 {
     font-size: clamp(2rem, 6vw, 4.5rem);
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
+
+/* .ready-container-hp h1:hover {
+    border: 1px solid black;
+} */
 
 .ready-container-btn {
     margin-bottom: 10px;
 }
 
-.ready-container-hp p:hover {
-    border: 1px solid black;
+.ready-container-hp p {
+    border: 1px solid transparent;
     border-radius: 6px;
+
+
 }
 
+/* 
 .ready-container-hp p:hover {
     border: 1px solid black;
-    border-radius: 6px;
-}
 
+} */
 
 /* ready prat end */
 

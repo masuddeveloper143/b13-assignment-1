@@ -435,7 +435,7 @@ nav {
 }
 
 .ready-container-hp h1 {
-    font-size: 2.5em;
+    font-size: clamp(2rem, 6vw, 4.5rem);
 }
 
 .ready-container-btn {
@@ -521,6 +521,13 @@ nav {
 
 @media screen and (max-width: 576px) {
 
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        /* 🔥 ONLY X */
+    }
+
     .nav-features li {
         display: none;
 
@@ -556,6 +563,26 @@ nav {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .brain-container-p p {
+        text-align: center;
+    }
+
+    .ready-container-hp p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .ready-container-hp h1 {
+        .line-height: 1.5;
+    }
+
+
+    .ready-container {
+        width: 100%;
+        height: auto;
+    }
+
 
 
 }

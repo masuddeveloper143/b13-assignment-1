@@ -623,15 +623,29 @@ nav {
     .crad-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
     }
 
     .crad {
         justify-content: center;
     }
 
+
     .brain-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .brain-container-images {
+        width: 50%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .brain-container-images img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
 
     }
 
@@ -640,10 +654,23 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 8rem;
     }
 
-    .brain-container-p {
-        display: flex;
+    .brain-container h1 {
+        font-size: clamp(2rem, 6vw, 4.5rem);
+    }
+
+    .brain-container p {
+        padding: 0 16px;
+    }
+
+    .brain-container-h1 {
+        padding: 0 16px;
+    }
+
+    .ready {
+        padding: 0 20px;
     }
 
     .ready-container-hp p {

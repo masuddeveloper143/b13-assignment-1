@@ -562,10 +562,18 @@ nav {
     .brain-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+
     }
 
-    .brain-container-p p {
+    .brain-container-p {
         text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brain-container-p {
+        display: flex;
     }
 
     .ready-container-hp p {

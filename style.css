@@ -342,18 +342,13 @@ nav {
 .brain-container {
     width: 100%;
     max-width: 1360px;
-    height: auto;
-    min-height: 840px;
+    padding: 0 16px;
     margin: 0 auto;
-}
-
-.brain-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 3rem;
-
 }
+
+
 
 .brain-container-images {
     max-width: 600px;
@@ -380,10 +375,12 @@ nav {
 }
 
 
-.brain-container-p p {
+.brain-container-p p,
+.brain-container-p h1 {
     margin: 2rem 0;
     font-size: 16px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     opacity: 0.7;
     border: 1px solid transparent;
     border-radius: 6px;
@@ -632,62 +629,41 @@ nav {
 
 
     .brain-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .brain-container-images {
-        width: 50%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
-    .brain-container-images img {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-
-    }
-
-    .brain-container-p {
-        text-align: center;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 8rem;
+        align-items: flex-start;
+        /* 🔥 */
+        gap: 2rem;
     }
+}
 
-    .brain-container h1 {
-        font-size: clamp(2rem, 6vw, 4.5rem);
-    }
+.brain-container-images {
+    width: 100%;
+    max-width: 600px;
+}
 
-    .brain-container p {
-        padding: 0 16px;
-    }
+.brain-container-p p,
+.brain-container-p h1 {
+    width: 100%;
+    max-width: 400px;
+}
 
-    .brain-container-h1 {
-        padding: 0 16px;
-    }
+.ready {
+    padding: 0 20px;
+    margin-top: 4rem;
+}
 
-    .ready {
-        padding: 0 20px;
-    }
+.ready-container-hp p {
+    text-align: center;
+    width: 100%;
+}
 
-    .ready-container-hp p {
-        text-align: center;
-        width: 100%;
-    }
-
-    .ready-container-hp h1 {
-        .line-height: 1.5;
-    }
-
-
-    .ready-container {
-        width: 100%;
-        height: auto;
-    }
+.ready-container-hp h1 {
+    .line-height: 1.5;
+}
 
 
-
+.ready-container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
 }

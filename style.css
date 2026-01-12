@@ -215,8 +215,13 @@ nav {
 
 
 .notes-container h1 {
-    font-size: 48px;
-    font-weight: bold;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    /* 🔥 RESPONSIVE TEXT */
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+
 }
 
 .notes-container:hover {
@@ -226,6 +231,9 @@ nav {
 
 .notes-container p {
     opacity: 0.7;
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    line-height: 1.6;
+
 }
 
 .notes-container p:hover {
@@ -527,7 +535,27 @@ nav {
     /* MOBILE EXTRA FIX */
     .hero-content h1 {
         line-height: 1.15;
+
     }
-}
+
+    .notes-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .crad-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .crad {
+        justify-content: center;
+    }
+
+    .brain-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
 }

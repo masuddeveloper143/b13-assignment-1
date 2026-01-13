@@ -614,8 +614,8 @@ nav {
     }
 
     .nav-logo {
-        height: 40px;
-        margin: auto 0;
+        height: 43px;
+        text-align: center;
     }
 
     .nav-logo img {

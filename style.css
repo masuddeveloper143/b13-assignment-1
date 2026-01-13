@@ -597,6 +597,9 @@ nav {
 
     nav {
         height: 56px;
+        display: flex;
+        align-items: center;
+        width: 100%;
     }
 
     .nav-features li {
@@ -605,17 +608,25 @@ nav {
     }
 
     .nav-container {
+        display: flex;
+        align-items: center;
         width: 100%;
     }
 
     .nav-logo {
-        height: 32px;
+        height: 36px;
+        margin: auto 0;
     }
 
     .nav-logo img {
         height: 100%;
         width: 100%;
 
+    }
+
+    .nav-btn button {
+        padding: 8px 8px;
+        text-align: center;
     }
 
 
@@ -654,6 +665,7 @@ nav {
 .brain-container-images {
     width: 100%;
     max-width: 600px;
+    margin-top: 2rem;
 }
 
 .brain-container-p p,

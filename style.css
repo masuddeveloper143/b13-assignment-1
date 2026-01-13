@@ -78,7 +78,7 @@ nav {
     border: 1px solid transparent;
 }
 
-.nav-features ul:hover {
+.nav-features ul :hover {
     border: 1px solid black;
 }
 
@@ -602,7 +602,7 @@ nav {
         width: 100%;
     }
 
-    .nav-features li {
+    .nav-features ul li {
         display: none;
 
     }
